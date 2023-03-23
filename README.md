@@ -1,2 +1,2 @@
-# -getting_started_with_pynecone
+# getting_started_with_pynecone
  Getting started with pynecone
