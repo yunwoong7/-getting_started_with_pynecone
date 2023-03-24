@@ -65,7 +65,9 @@ $ ~/getting_started_with_pynecone/ pc init
 
 pc init 명령어를 수행하면 초기화가 진행되고 아래와 같이 파일들이 생성됩니다.
 
-![img](https://blog.kakaocdn.net/dn/b50EjN/btr5D2duteX/tCgclKHFOm8DDhWNH4o7Tk/img.png)
+<div align="center">
+<img src="https://blog.kakaocdn.net/dn/b50EjN/btr5D2duteX/tCgclKHFOm8DDhWNH4o7Tk/img.png" height="70%">
+</div>
 
 ### Run the App
 
@@ -77,19 +79,25 @@ $ pc run
 
 이 명령을 처음 실행하면 자동으로 [bun](https://bun.sh/)을 다운로드하여 설치합니다.
 
-![img](https://blog.kakaocdn.net/dn/WZYNT/btr5C53AOlj/JFCwIC80WprkGZGjPMfkTK/img.png)
+<div align="center">
+<img src="https://blog.kakaocdn.net/dn/WZYNT/btr5C53AOlj/JFCwIC80WprkGZGjPMfkTK/img.png" width="70%">
+</div>
 
 ready와 compiled client and server successfully event가 정상적으로 출력되었다면 모든 준비가 끝난 것입니다.
 
 특별히 바꾼 것이 없다면 http://localhost:3000에서 app이 표시됩니다. 브라우저 주소창에 [http://localhost:3000](http://0.0.0.0:3000/)를 입력하여 페이지를 이동하면 수행결과를 확인하실 수 있습니다.
 
-더보기
+> --port 옵션를 이용하여 다른 port에서 app을 실행할 수 있습니다.
 
-![img](https://blog.kakaocdn.net/dn/cXK2SB/btr5rgdWPLB/33E6AgB7NkwWaWZer94ypK/img.png)
+
+
+<div align="center">
+<img src="https://blog.kakaocdn.net/dn/cXK2SB/btr5rgdWPLB/33E6AgB7NkwWaWZer94ypK/img.png" width="70%">
+</div>
 
 Pynecone 웰컴 페이지가 만들어졌습니다.
 
---loglevel 옵션을 설정하여 app을 debug 할 수 있습니다.
+> --loglevel 옵션을 설정하여 app을 debug 할 수 있습니다.
 
 ```shell
 $ pc run --loglevel debug
@@ -97,7 +105,9 @@ $ pc run --loglevel debug
 
 간단히 code 수정 후 재수행 해보겠습니다. my_app_name/my_app_name.py 파일을 수정합니다. (저는 getting_started_with_pynecone/getting_started_with_pynecone.py 파일입니다.)
 
-![img](https://blog.kakaocdn.net/dn/sq1br/btr5scvzxq9/VC56VoCzgpGukCPDN4LDI1/img.png)
+<div align="center">
+<img src="https://blog.kakaocdn.net/dn/sq1br/btr5scvzxq9/VC56VoCzgpGukCPDN4LDI1/img.png" width="70%">
+</div>
 
 pynecone은 개발 모드에서 실행할 때 **fast refresh 기능**이 내장되어 있습니다. 에서 소스 코드를 수정하고 코드를 저장하면 브라우저에서 즉시 변경 사항을 확인할 수 있습니다. 
 
@@ -144,6 +154,8 @@ app.add_page(index)
 app.compile()
 ```
 
-![img](https://blog.kakaocdn.net/dn/vSlZE/btr5A5Qd5eu/jz4UA8GgCwWbZjzrwBz6e1/img.gif)
+<div align="center">
+<img src="https://blog.kakaocdn.net/dn/vSlZE/btr5A5Qd5eu/jz4UA8GgCwWbZjzrwBz6e1/img.gif" width="100%">
+</div>
 
 수행이 된 상태에서 code를 변경하니 몇초 뒤에 Web App에도 반영이 됩니다. 매우 간단한 과정으로 Web App을 만들고 Build 할 수 있습니다.
