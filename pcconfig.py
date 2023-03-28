@@ -1,7 +1,7 @@
 import pynecone as pc
 
 config = pc.Config(
-    app_name="getting_started_with_pynecone",
+    app_name="gpt",
     db_url="sqlite:///pynecone.db",
     env=pc.Env.DEV,
 )

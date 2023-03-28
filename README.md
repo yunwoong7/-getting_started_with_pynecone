@@ -159,3 +159,14 @@ app.compile()
 </div>
 
 수행이 된 상태에서 code를 변경하니 몇초 뒤에 Web App에도 반영이 됩니다. 매우 간단한 과정으로 Web App을 만들고 Build 할 수 있습니다.
+
+------
+
+[Pynecone](https://pynecone.io/)에는 다양한 예제를 소개하고 있습니다. 그중 Dall-E와 ChatGPT 예제를 소개합니다. 
+
+- [[ Pynecone ] DALL·E 모델로 이미지를 생성 App 예제 (Python)](https://yunwoong.tistory.com/223)
+- [[ Pynecone ] ChatGPT App 예제 (Python)](https://yunwoong.tistory.com/224)
+
+------
+
+물론 Pynecone이 CSS나 HTML, Javascript, React를 대체할 것이라는 생각이 되지는 않습니다. 하지만 프런트엔드를 경험하지 않은 백엔드 개발자가 UI를 포함하여 간단히 만들어 볼 때에는 매우 유용한 것 같습니다. 백엔드는 FastAPI와 SQLAlchemy로 구축되어 있고 매우 간단한 Shell 명령어로 세팅, 빌드, 배포, 디버깅까지 손쉽게 해 볼 수 있기 때문이죠. **개발자에 생산적인 프레임워크임**은 틀림없는 것 같습니다. 현재는 제약사항이나 제한적인 기능이 있지만 공개된 지 이제 몇 개월밖에 되지 않았고 지속적으로 Relaese 하고 있으니 관심을 두고 지켜볼만한 것 같습니다.
